@@ -1,13 +1,7 @@
 ﻿public class ScenesController : Controller
 {
     public ScenesController(){
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.Logo, LoadScenes);
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.Main, LoadScenes);
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.LifePrepare, LoadScenes);
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.LifeRestart, LoadScenes);
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.Achievement, LoadScenes);
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.MyLife, LoadScenes);
-        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.Test, LoadScenes);
+        EventCenter<SceneEvent>.AddListener<string>(SceneEvent.ToScene, LoadScenes);
     }
 
     /// <summary>
@@ -30,12 +24,6 @@
 
     ~ScenesController()
     {
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.Logo, LoadScenes);
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.Main, LoadScenes);
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.LifePrepare, LoadScenes);
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.LifeRestart, LoadScenes);
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.Achievement, LoadScenes);
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.MyLife, LoadScenes);
-        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.Test, LoadScenes);
+        EventCenter<SceneEvent>.RemoveListener<string>(SceneEvent.ToScene, LoadScenes);
     }
 }

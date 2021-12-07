@@ -7,7 +7,7 @@ public class TestScene : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             DebugLog.Log("SceneEvent：Try to go to Main Scene");
-            EventCenter<SceneEvent>.Broadcast(SceneEvent.Main, "Main");
+            EventCenter<SceneEvent>.Broadcast(SceneEvent.ToScene, "Main");
         }
     }
 }
