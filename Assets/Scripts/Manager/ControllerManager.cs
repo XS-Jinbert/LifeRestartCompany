@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class ControllerManager
+public class ControllerManager
 {
     static ScenesController scenesController = new ScenesController();
 
-    public static void Use() { }
+    // 加载场景前调用，在Awake执行之后
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    public static void Main() {
+        DebugLog.Log("【游戏初始化】ControllerManager初始化成功");
+    }
 }
