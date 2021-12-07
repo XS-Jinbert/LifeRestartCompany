@@ -7,3 +7,14 @@
     TestMove_left,
     TestMove_right
 }
+
+public enum SceneEvent
+{
+    Logo,
+    Main,
+    LifePrepare,
+    LifeRestart,
+    Achievement,
+    MyLife,
+    Test
+}

@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Logo.unity
+    guid: 719b92ff252971545affb19bb2b7f2f5
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: edeba1a9d83d52f41aa60706a45db7bd
+  - enabled: 1
+    path: Assets/Scenes/LifePrepare.unity
+    guid: e2a1aaa8bd52e71468d29f2b8275a556
+  - enabled: 1
+    path: Assets/Scenes/LifeRestart.unity
+    guid: 3ae4a1f0eb8422241a7cb1fafcc8bcf3
+  - enabled: 1
+    path: Assets/Scenes/Achievement.unity
+    guid: eb69ef510505f574498fe3a49e660792
+  - enabled: 1
+    path: Assets/Scenes/MyLife.unity
+    guid: 35db1881296caf444bab839e71197948
   m_configObjects: {}

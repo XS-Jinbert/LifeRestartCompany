@@ -268,7 +268,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u6210  \u5C31"
+  m_Text: "\u6211\u7684\u8BB0\u5F55"
 --- !u!222 &250972172
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -538,7 +538,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d9533940670560449159a43edc0109a, type: 3}
   m_Color: {r: 1, g: 0.9138928, b: 0, a: 1}
   m_FlipX: 0
@@ -700,7 +700,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d9533940670560449159a43edc0109a, type: 3}
   m_Color: {r: 0.16109848, g: 0, b: 1, a: 1}
   m_FlipX: 0
@@ -1117,7 +1117,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d9533940670560449159a43edc0109a, type: 3}
   m_Color: {r: 1, g: 0.9138928, b: 0, a: 1}
   m_FlipX: 0
@@ -1198,7 +1198,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d9533940670560449159a43edc0109a, type: 3}
   m_Color: {r: 1, g: 0.9138928, b: 0, a: 1}
   m_FlipX: 0
@@ -1492,7 +1492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u5F00\u59CB\u91CD\u6765"
+  m_Text: "\u8BA2\u5236\u4EBA\u751F"
 --- !u!222 &1546896913
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1841,7 +1841,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d9533940670560449159a43edc0109a, type: 3}
   m_Color: {r: 0.16109848, g: 0, b: 1, a: 1}
   m_FlipX: 0
@@ -1936,7 +1936,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2d9533940670560449159a43edc0109a, type: 3}
   m_Color: {r: 1, g: 0.9138928, b: 0, a: 1}
   m_FlipX: 0
